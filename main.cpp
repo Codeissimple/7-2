@@ -15,13 +15,15 @@ int main() {
    }
 
    cout << "The hours you entered are:";
+
    for (count = 0; count < NUM_EMPLOYEES; count++)
    {
     tsal = tsal+hours[count]*15;
     cout << " " << hours[count];
     cout << endl;
    }
-   cout << "Total Salary " << tsal << endl;
+   cout << "Total Salary $" << tsal << endl;
+   cout << "Average Salary $" << tsal/6 << endl;
     return 0;
    
 }
